@@ -1,14 +1,13 @@
 import { Navbar, Container, Nav } from "react-bootstrap";
+import "../CSS/styles.css";
+
 function NavBar() {
   return (
     <main>
-      <Navbar bg="primary" variant="dark">
+      <Navbar className="nav-bar" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">Kelechukwu M. Christwin</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
+          <Nav className="mx-auto">
+            <h4 className="typed">Hi, I'm Kelechukwu M. Christwin</h4>
           </Nav>
         </Container>
       </Navbar>
