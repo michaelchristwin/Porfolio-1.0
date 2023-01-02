@@ -29,8 +29,6 @@ body {
   color: black;
 }
 .shit {
-  margin-top: 100px;
-  background-color: #0f03031e;
   width: fit-content;
   color: white;
   font-family: monospace;
@@ -41,7 +39,7 @@ body {
   width: 180px;
   height: 200px;
   border-radius: 50%;
-  border-color: black;
-  border-width: 3px;
-  border-style: double;
+  border-color: rgba(167, 160, 200, 0.51);
+  border-width: 7px;
+  border-style: solid;
 }

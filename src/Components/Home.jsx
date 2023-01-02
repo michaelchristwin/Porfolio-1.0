@@ -9,8 +9,16 @@ function Home() {
   return (
     <main>
       <NavBar />
-      <div data-aos="fade-up" className="shit p-3">
-        <img src={Avatar} alt="" className="dp" />
+      <div
+        data-aos="fade-up"
+        className="shit pt-3 px-5 bg-dark mt-3 d-flex flex-column text-center"
+      >
+        <img src={Avatar} alt="Profile Photo" className="dp mx-auto" />
+        <p className="mt-2">Front End Engineer</p>
+        <p>About</p>
+        <p>Toolkit</p>
+        <p>Experience</p>
+        <p>Hobbies</p>
       </div>
     </main>
   );
