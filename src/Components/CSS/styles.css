@@ -24,3 +24,24 @@ body {
     width: 100%;
   }
 }
+.links a {
+  text-decoration: none;
+  color: black;
+}
+.shit {
+  margin-top: 100px;
+  background-color: #0f03031e;
+  width: fit-content;
+  color: white;
+  font-family: monospace;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+.dp {
+  width: 180px;
+  height: 200px;
+  border-radius: 50%;
+  border-color: black;
+  border-width: 3px;
+  border-style: double;
+}
