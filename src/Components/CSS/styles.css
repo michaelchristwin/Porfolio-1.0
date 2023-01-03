@@ -2,6 +2,8 @@ body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
     url(../imgs/pines.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .nav-bar {
   background-color: #0f03031e;
@@ -29,8 +31,13 @@ body {
   text-decoration: none;
   color: black;
 }
+.links {
+  border-radius: 9px;
+}
 .shit {
-  width: fit-content;
+  position: fixed;
+  width: 300px;
+  height: 600px;
   color: white;
   background-color: rgba(20, 20, 20, 0.893);
   font-family: monospace;
@@ -44,4 +51,20 @@ body {
   border-color: rgba(167, 160, 200, 0.51);
   border-width: 7px;
   border-style: solid;
+}
+.intro {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 100px;
+  line-height: 100px;
+  margin-top: 30vh;
+}
+.hola {
+  margin-top: 60px;
+}
+.arrow {
+  margin-top: 20px;
+  width: 300px;
 }
