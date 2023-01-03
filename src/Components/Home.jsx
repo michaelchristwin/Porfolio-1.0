@@ -11,7 +11,7 @@ function Home() {
       <NavBar />
       <div
         data-aos="fade-up"
-        className="shit pt-3 px-5 bg-dark mt-3 d-flex flex-column text-center"
+        className="shit pt-3 px-5 mt-3 d-flex flex-column text-center"
       >
         <img src={Avatar} alt="Profile Photo" className="dp mx-auto" />
         <p className="mt-2">Front End Engineer</p>

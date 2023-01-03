@@ -1,5 +1,6 @@
 body {
-  background-image: url(../imgs/pines.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+    url(../imgs/pines.jpg);
   background-size: cover;
 }
 .nav-bar {
@@ -31,6 +32,7 @@ body {
 .shit {
   width: fit-content;
   color: white;
+  background-color: rgba(20, 20, 20, 0.893);
   font-family: monospace;
   border-top-right-radius: 12px;
   border-bottom-right-radius: 12px;
