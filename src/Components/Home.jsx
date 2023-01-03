@@ -41,7 +41,7 @@ function Home() {
           <p>Experience</p>
           <p>Hobbies</p>
         </div>
-        <div className="container-fluid intro" data-aos="flip-right">
+        <div className="intro" data-aos="flip-right">
           <span className="d-block">Front End</span>
           <span className="d-block">Engineer</span>
           <img
@@ -51,8 +51,20 @@ function Home() {
           />
         </div>
       </div>
-      <div className="bg-white content">
-        <h1>Juice WRLD</h1>
+      <div className="bg-light content p-5 d-flex">
+        <div className="p-3 bg-white snip text-center shadow">
+          <h1 className="text-danger">About</h1>
+          <hr />
+          <aside>
+            Kelechukwu Christwin is a 17 year old front end developer with 2
+            years of experience in coding. He has worked as a Junior End
+            Developer for Switch Electric Ltd, an energy-as-a-service startup
+            company in Nigeria. Kelechukwu is highly interested in AI,
+            cryptocurrencies, and the Internet of Things, and is passionate
+            about programming. In his free time, Kelechukwu enjoys listening to
+            music, taking photographs, and playing video games.
+          </aside>
+        </div>
       </div>
     </main>
   );
