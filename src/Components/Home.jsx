@@ -51,6 +51,9 @@ function Home() {
           />
         </div>
       </div>
+      <div className="bg-white content">
+        <h1>Juice WRLD</h1>
+      </div>
     </main>
   );
 }

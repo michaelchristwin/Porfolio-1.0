@@ -56,15 +56,31 @@ body {
   text-align: center;
   font-family: sans-serif;
   font-weight: 700;
-  color: white;
+  animation: changeBackgroundColor 10s infinite;
   font-size: 100px;
   line-height: 100px;
-  margin-top: 30vh;
+  margin-top: 25vh;
 }
 .hola {
   margin-top: 60px;
 }
 .arrow {
-  margin-top: 20px;
+  margin-top: 80px;
   width: 300px;
+}
+.content {
+  margin-left: 310px;
+  margin-top: 80px;
+  border-top-left-radius: 9px;
+}
+@keyframes changeBackgroundColor {
+  25% {
+    color: white;
+  }
+  50% {
+    color: aqua;
+  }
+  100% {
+    color: #001f3f;
+  }
 }
