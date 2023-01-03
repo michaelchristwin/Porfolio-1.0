@@ -3,6 +3,8 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import FacebookIcon from "@mui/icons-material/Facebook";
+import EmailIcon from "@mui/icons-material/Email";
+import PersonIcon from "@mui/icons-material/Person";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./CSS/styles.css";
@@ -32,14 +34,24 @@ function Home() {
             >
               <LinkedInIcon />
             </a>
-            <a href="https://www.facebook.com/kelechukwu.christwin/">
+            <a
+              href="https://www.facebook.com/kelechukwu.christwin/"
+              className="mx-1"
+            >
               <FacebookIcon />
             </a>
+            <a href="mailto:kelechukwuchristwin@gmail.com">
+              <EmailIcon />
+            </a>
           </div>
-          <p>About</p>
-          <p>Toolkit</p>
-          <p>Experience</p>
-          <p>Hobbies</p>
+          <div className="mt-3">
+            <a href="#about" className="link">
+              <PersonIcon /> About
+            </a>
+            <p className="link">Toolkit</p>
+            <p className="link">Experience</p>
+            <p className="link">Hobbies</p>
+          </div>
         </div>
         <div className="intro" data-aos="flip-right">
           <span className="d-block">Front End</span>
@@ -51,18 +63,18 @@ function Home() {
           />
         </div>
       </div>
-      <div className="bg-light content p-5 d-flex">
-        <div className="p-3 bg-white snip text-center shadow">
+      <div className="bg-light content p-5 d-flex justify-content-center">
+        <div className="p-3 bg-white snip text-center shadow" id="about">
           <h1 className="text-danger">About</h1>
           <hr />
-          <aside>
-            Kelechukwu Christwin is a 17 year old front end developer with 2
+          <aside className="">
+            "Kelechukwu Christwin is a 17 year old front end developer with 2
             years of experience in coding. He has worked as a Junior End
             Developer for Switch Electric Ltd, an energy-as-a-service startup
             company in Nigeria. Kelechukwu is highly interested in AI,
             cryptocurrencies, and the Internet of Things, and is passionate
             about programming. In his free time, Kelechukwu enjoys listening to
-            music, taking photographs, and playing video games.
+            music, taking photographs, and playing video games."
           </aside>
         </div>
       </div>
