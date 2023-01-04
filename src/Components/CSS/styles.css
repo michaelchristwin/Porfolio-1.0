@@ -71,6 +71,7 @@ body {
 }
 .content {
   margin-left: 310px;
+  background-color: #0f03033a;
   font-family: sans-serif;
   margin-top: 80px;
   border-top-left-radius: 9px;
@@ -78,7 +79,6 @@ body {
 .snip {
   border-radius: 9px !important;
   width: 500px;
-  margin-left: 25%;
 }
 .link {
   color: white;
@@ -86,4 +86,17 @@ body {
 }
 .link:hover {
   color: orangered;
+}
+.bio {
+  width: 450px;
+  height: 300px;
+  border-radius: 9px;
+}
+.tool {
+  font-size: 20px;
+}
+.icon {
+  height: 10px !important;
+}
+#skills {
 }
