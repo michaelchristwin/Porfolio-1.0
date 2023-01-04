@@ -1,73 +1,25 @@
 import NavBar from "./JSX/NavBar";
-import TwitterIcon from "@mui/icons-material/Twitter";
-import GitHubIcon from "@mui/icons-material/GitHub";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import FacebookIcon from "@mui/icons-material/Facebook";
-import EmailIcon from "@mui/icons-material/Email";
-import PersonIcon from "@mui/icons-material/Person";
+import ProgressBar from "react-bootstrap/ProgressBar";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./CSS/styles.css";
-import Avatar from "./imgs/avatar2.jpg";
+import MyLinks from "./JSX/MyLinks";
 
 function Home() {
   AOS.init();
   return (
     <main>
       <NavBar />
-      <div className="d-flex hola">
+      <MyLinks />
+      <div className="bg-light content p-5 border">
         <div
-          data-aos="fade-up"
-          className="shit pt-2 px-5 mt-3 d-flex flex-column text-center"
+          className="p-3 bg-white snip text-center shadow border"
+          id="about"
+          data-aos="zoom-in-up"
         >
-          <img src={Avatar} alt="Profile Photo" className="dp mx-auto" />
-          <div className="mt-2 links bg-white">
-            <a href="https://twitter.com/mikechristwin" className="mx-1">
-              <TwitterIcon />
-            </a>
-            <a href="https://github.com/michaelchristwin" className="mx-1">
-              <GitHubIcon />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/michael-christwin-b8b980253/"
-              className="mx-1"
-            >
-              <LinkedInIcon />
-            </a>
-            <a
-              href="https://www.facebook.com/kelechukwu.christwin/"
-              className="mx-1"
-            >
-              <FacebookIcon />
-            </a>
-            <a href="mailto:kelechukwuchristwin@gmail.com">
-              <EmailIcon />
-            </a>
-          </div>
-          <div className="mt-3">
-            <a href="#about" className="link">
-              <PersonIcon /> About
-            </a>
-            <p className="link">Toolkit</p>
-            <p className="link">Experience</p>
-            <p className="link">Hobbies</p>
-          </div>
-        </div>
-        <div className="intro" data-aos="flip-right">
-          <span className="d-block">Front End</span>
-          <span className="d-block">Engineer</span>
-          <img
-            src="https://media.giphy.com/media/deKZM8D0orxwQ18qtB/giphy.gif"
-            className="arrow"
-            alt="arrow"
-          />
-        </div>
-      </div>
-      <div className="bg-light content p-5 d-flex justify-content-center">
-        <div className="p-3 bg-white snip text-center shadow" id="about">
           <h1 className="text-danger">About</h1>
           <hr />
-          <aside className="">
+          <aside>
             "Kelechukwu Christwin is a 17 year old front end developer with 2
             years of experience in coding. He has worked as a Junior End
             Developer for Switch Electric Ltd, an energy-as-a-service startup
@@ -76,6 +28,14 @@ function Home() {
             about programming. In his free time, Kelechukwu enjoys listening to
             music, taking photographs, and playing video games."
           </aside>
+        </div>
+        <hr />
+        <div className="snip p-3 shadow mt-5 ">
+          <h1 className="text-danger text-center">Skills</h1>
+          <div className="text-left">
+            <p>CSS</p>
+            <ProgressBar variant="success" now={70} />
+          </div>
         </div>
       </div>
     </main>
