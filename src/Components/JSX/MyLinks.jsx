@@ -20,7 +20,7 @@ function MyLinks() {
         className="shit pt-2 px-5 mt-3 d-flex flex-column text-left"
       >
         <img src={Avatar} alt="Profile Photo" className="dp mx-auto" />
-        <div className="mt-2 links bg-white">
+        <div className="mt-2 links">
           <a href="https://twitter.com/mikechristwin" className="mx-1">
             <TwitterIcon />
           </a>
@@ -44,16 +44,16 @@ function MyLinks() {
           </a>
         </div>
         <div className="mt-3 mx-auto">
-          <a href="#about" className="link">
+          <a href="#about" className="link d-block">
             <PersonIcon /> About
           </a>
           <a className="link d-block" href="#skills">
             <LaptopIcon /> Skills
           </a>
-          <p className="link">
+          <a className="link d-block" href="#experience">
             <WorkIcon /> Experience
-          </p>
-          <p className="link">
+          </a>
+          <p className="link d-block">
             <SportsEsportsIcon /> Hobbies
           </p>
         </div>
