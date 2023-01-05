@@ -98,5 +98,10 @@ body {
 .icon {
   height: 10px !important;
 }
-#skills {
+.resume {
+  text-decoration: none;
+  color: white;
+}
+.resume:hover {
+  color: orangered;
 }

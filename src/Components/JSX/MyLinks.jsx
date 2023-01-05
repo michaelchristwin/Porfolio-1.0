@@ -6,14 +6,17 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import EmailIcon from "@mui/icons-material/Email";
 import PersonIcon from "@mui/icons-material/Person";
+import LaptopIcon from "@mui/icons-material/Laptop";
 import WorkIcon from "@mui/icons-material/Work";
 import SportsEsportsIcon from "@mui/icons-material/SportsEsports";
+import Resume from "../imgs/resume.pdf";
+import DownloadIcon from "@mui/icons-material/Download";
 
 function MyLinks() {
   return (
     <div className="d-flex hola">
       <div
-        data-aos="fade-up"
+        data-aos="fade-up-right"
         className="shit pt-2 px-5 mt-3 d-flex flex-column text-left"
       >
         <img src={Avatar} alt="Profile Photo" className="dp mx-auto" />
@@ -45,7 +48,7 @@ function MyLinks() {
             <PersonIcon /> About
           </a>
           <a className="link d-block" href="#skills">
-            Skills
+            <LaptopIcon /> Skills
           </a>
           <p className="link">
             <WorkIcon /> Experience
@@ -53,6 +56,11 @@ function MyLinks() {
           <p className="link">
             <SportsEsportsIcon /> Hobbies
           </p>
+        </div>
+        <div>
+          <a href={Resume} download className="resume">
+            Download Resume <DownloadIcon />
+          </a>
         </div>
       </div>
       <div className="intro" data-aos="flip-right">
