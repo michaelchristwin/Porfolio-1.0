@@ -67,9 +67,22 @@ function Home() {
             </div>
           </div>
         </div>
-        <div className="d-flex justify-content-center mt-5" id="experience">
-          <div className="p-3 bg-white snip text-center shadow border">
+        <div className="d-flex justify-content-center mt-5">
+          <div
+            className="p-3 bg-white snip text-center shadow border"
+            id="experience"
+            data-aos="zoom-in-up"
+          >
             <h1 className="text-danger">Experience</h1>
+            <hr />
+            <div>
+              October 2022 - November 2022 @Switch Electric Ltd
+              <p>Role: Junior Front End Developer</p>
+            </div>
+            <div>
+              November 2022 - December 2022 @Learnhall LLC
+              <p>Role: Front End Engineer</p>
+            </div>
           </div>
         </div>
       </div>
